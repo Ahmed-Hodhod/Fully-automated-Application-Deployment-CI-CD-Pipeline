@@ -1,6 +1,6 @@
 # Fully Automated Application Deployment CI/CD Pipeline using CircleCi
 
-This project is meant to implement a complete CICD pipeline once there is a push to the master branch. The pipeline is nearly 12 jobs running on the code to make sure it is bug-free and reliable. 
+This project is meant to implement a complete CICD pipeline to start once there is a push to the master branch. The pipeline is nearly 12 jobs running on the code to make sure it is bug-free and reliable before deployment. 
 
 ### The final output in bullet points: 
 - Deploy Infrastructure using AWS CLI commands and CloudFromation Templates.
@@ -50,9 +50,6 @@ This project is meant to implement a complete CICD pipeline once there is a push
 
 ## An alert from Prometheus [EC2 went down]
 ![Prometheus Alert](https://github.com/Ahmed-Hodhod/Fully-automated-Application-Deployment-CI-CD-Pipeline/blob/master/project_screenshots/Screenshot12_EmailNotifi.png)
-
-
-[title](https://www.example.com)
 
 
 ### Built With
