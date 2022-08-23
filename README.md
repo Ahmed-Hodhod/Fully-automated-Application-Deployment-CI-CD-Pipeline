@@ -18,14 +18,34 @@ Through this project, you will be able to Build, Test, and scan the application 
 ![successful push to repo](https://github.com/Ahmed-Hodhod/Fully-automated-Application-Deployment-CI-CD-Pipeline/blob/master/project_screenshots/Screenshot%20(2129).png)
 
 
+## A successful rollback on failure 
+![Running API](https://github.com/Ahmed-Hodhod/Fully-automated-Application-Deployment-CI-CD-Pipeline/blob/master/project_screenshots/Screenshot7_SuccessfulRollback.png)
+
+
+## Setting circleci to send us emails 
+![CircleCI Notification](https://github.com/Ahmed-Hodhod/Fully-automated-Application-Deployment-CI-CD-Pipeline/blob/master/project_screenshots/ScreenShot4_Email_Notification.png)
+
+
+## Cloudfront distribution 
+![Cloudfront Distribution](https://github.com/Ahmed-Hodhod/Fully-automated-Application-Deployment-CI-CD-Pipeline/blob/master/project_screenshots/URL3_Screenshot.png)
+
+
 ## Testing the website after deployment
 ![Functioning website](https://github.com/Ahmed-Hodhod/Fully-automated-Application-Deployment-CI-CD-Pipeline/blob/master/project_screenshots/fix_cloudfrontDomanName.png)
 
 
+## The API is running successfully 
+![Running API](https://github.com/Ahmed-Hodhod/Fully-automated-Application-Deployment-CI-CD-Pipeline/blob/master/project_screenshots/URL4_Screenshot.png)
 
 
+## Listing Employees through a raw API request
+![Running API](https://github.com/Ahmed-Hodhod/Fully-automated-Application-Deployment-CI-CD-Pipeline/blob/master/project_screenshots/fix_api-employees.png)
 
 
+## Configuring Prometheus for monitoring and troubleshooting
+![Prometheus](https://github.com/Ahmed-Hodhod/Fully-automated-Application-Deployment-CI-CD-Pipeline/blob/master/project_screenshots/URL5_Screenshot.png)
 
 
+## An alert from Prometheus [EC2 went down]
+![Prometheus Alert](https://github.com/Ahmed-Hodhod/Fully-automated-Application-Deployment-CI-CD-Pipeline/blob/master/project_screenshots/Screenshot12_EmailNotifi.png)
 
