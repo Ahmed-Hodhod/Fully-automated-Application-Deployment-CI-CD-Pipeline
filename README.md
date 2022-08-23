@@ -15,7 +15,7 @@ Through this project, you will be able to Build, Test, and scan the application 
 ![The pipeline flow](udapeople-pipeline.png)
 
 ## The website After Deployment
-![Functioning website](project screenshots/udapeople-pipeline.png)
+![Functioning website]("project screenshots"/udapeople-pipeline.png)
 
 
 
