@@ -14,8 +14,14 @@ Through this project, you will be able to Build, Test, and scan the application 
 ## The pipeline scheme
 ![The pipeline flow](udapeople-pipeline.png)
 
-## The website After Deployment
+## A push reposity passing all pipeline jobs 
+![successful push to repo](https://github.com/Ahmed-Hodhod/Fully-automated-Application-Deployment-CI-CD-Pipeline/blob/master/project_screenshots/Screenshot%20(2129).png)
+
+
+## Testing the website after deployment
 ![Functioning website](https://github.com/Ahmed-Hodhod/Fully-automated-Application-Deployment-CI-CD-Pipeline/blob/master/project_screenshots/fix_cloudfrontDomanName.png)
+
+
 
 
 
