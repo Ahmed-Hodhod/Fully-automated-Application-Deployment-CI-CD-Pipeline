@@ -10,12 +10,11 @@ Through this project, you will be able to Build, Test, and scan the application 
 - Promote the application on CloudFront CDN utilizing (Blue/Green) Deployment Strategy.
 
 
-
 ## The pipeline scheme
 ![The pipeline flow](udapeople-pipeline.png)
 
 ## The website After Deployment
-![Functioning website]("project screenshots"/udapeople-pipeline.png)
+![Functioning website](project_screenshots/udapeople-pipeline.png)
 
 
 
