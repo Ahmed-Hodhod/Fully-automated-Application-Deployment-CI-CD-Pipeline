@@ -1,6 +1,8 @@
 # Fully Automated Application Deployment CI/CD Pipeline using CircleCi
 
-Through this project, you will be able to Build, Test, and scan the application code as Continues Integration part of the project. Along the way, you will use Continous Deployment Through these steps:
+This project is meant to implement a complete CICD pipeline once there is a push to the master branch. The pipeline is nearly 12 jobs running on the code to make sure it is bug-free and reliable. 
+
+### The final output in bullet points: 
 - Deploy Infrastructure using AWS CLI commands and CloudFromation Templates.
 - Configure the provisioned backend EC2 instance using Ansible Playbooks and Roles.
 - Migrate the Database to an RDS-Postgres database on AWS and integrate it into the provisioned EC2.
@@ -49,3 +51,14 @@ Through this project, you will be able to Build, Test, and scan the application 
 ## An alert from Prometheus [EC2 went down]
 ![Prometheus Alert](https://github.com/Ahmed-Hodhod/Fully-automated-Application-Deployment-CI-CD-Pipeline/blob/master/project_screenshots/Screenshot12_EmailNotifi.png)
 
+
+[title](https://www.example.com)
+
+
+### Built With
+- [Circle CI](https://circleci.com/) - Cloud-based CI/CD service
+- [Amazon AWS](https://aws.amazon.com/) - Cloud services
+- [AWS CLI](https://aws.amazon.com/cli/) - Command-line tool for AWS
+- [CloudFormation](https://aws.amazon.com/cloudformation) Infrastrcuture as code
+- [Ansible](https://www.ansible.com/) - Configuration management tool
+- [Prometheus](https://prometheus.io/) - Monitoring tool
