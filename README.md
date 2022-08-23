@@ -1,5 +1,4 @@
 # Fully Automated Application Deployment CI/CD Pipeline using CircleCi
-A complete CI/CD pipeline to integrate a pushed code and deploy or rollback accordingly.
 
 Through this project, you will be able to Build, Test, and scan the application code as Continues Integration part of the project. Along the way, you will use Continous Deployment Through these steps:
 - Deploy Infrastructure using AWS CLI commands and CloudFromation Templates.
@@ -11,6 +10,16 @@ Through this project, you will be able to Build, Test, and scan the application 
 - Promote the application on CloudFront CDN utilizing (Blue/Green) Deployment Strategy.
 
 
+
 ## The pipeline scheme
 ![The pipeline flow](udapeople-pipeline.png)
+
+## The website After Deployment
+![Functioning website]("project screenshots/udapeople-pipeline.png")
+
+
+
+
+
+
 
