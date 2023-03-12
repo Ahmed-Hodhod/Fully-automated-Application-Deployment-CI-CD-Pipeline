@@ -151,14 +151,17 @@ jobs:
           command: |
             #cd .circleci/ansible
             rm -rf ~/hosts.txt > /dev/null
-            echo "[all]" > ~/hosts.txt
+            #echo "[all]" > ~/hosts.txt
             #aws ec2 describe-instances \
             #--query='Reservations[*].Instances[*].PublicIpAddress' \
             #--output text 
             #Get the most recent launched instance 
             aws ec2 describe-instances \
             --query 'sort_by(Reservations[].Instances[], &LaunchTime)[-1].[PublicIpAddress]' \
-            --output text >> ~/hosts.txt
+            --output text >> ~/ips.txt
+
+            echo "[all]" > ~/hosts.txt
+            while read p; do   "$p ansible_user=<ubuntu>" >> ~/hosts.txt; done
             cat ~/hosts.txt
 
       - persist_to_workspace:
@@ -174,6 +177,7 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints: ["51:9f:85:93:f3:3f:5a:a6:7f:55:83:c9:14:27:87:b4"]
+
       - run:
           name: Install dependencies needed
           command: |
