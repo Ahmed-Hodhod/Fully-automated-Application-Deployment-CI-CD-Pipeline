@@ -195,7 +195,8 @@ jobs:
             pwd 
             #cd .circleci/ansible
 
-            ansible-playbook -i  ~/hosts.txt .circleci/ansible/configure-server.yml 
+            ansible-playbook --user=root -vvv -i  ~/hosts.txt .circleci/ansible/configure-server.yml
+
             #ansible localhost -m shell -a pwd    # for test purposes
       - destroy-environment
 
