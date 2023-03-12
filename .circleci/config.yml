@@ -443,11 +443,13 @@ workflows:
       #         only: [master]
       - deploy-frontend:
           #requires: [run-migrations]
+          requires: [configure-infrastructure]
           filters:
             branches:
               only: [master]
       - deploy-backend:
           #requires: [run-migrations]
+          requires: [configure-infrastructure]
           filters:
             branches:
               only: [master]
