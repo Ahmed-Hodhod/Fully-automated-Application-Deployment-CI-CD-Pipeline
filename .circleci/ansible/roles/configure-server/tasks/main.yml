@@ -6,8 +6,8 @@
     #update_cache: yes   # update apt packages
 
 #- name: remove dependencies that are no longer required
- # become: yes
- # apt:
+# become: yes
+# apt:
 #    autoremove: yes
 
 - name: "install dependencies."
@@ -25,16 +25,16 @@
     production: yes
     state: present
 
-#- name: Creates directory
- # file:
-  #  path: ~/web
-   # state: directory
+- name: Creates directory
+  file:
+    path: ~/web
+    state: directory
 
-#- name: Copy index test page
- # template:
-  #  src: "files/index.js"
-   # dest: "~/web/index.js"
+- name: Copy index test page
+  template:
+    src: "files/index.js"
+    dest: "~/web/index.js"
 
-#- name: Executing node
- # shell: |
-  #  pm2 start ~/web/index.js -f
+- name: Executing node
+  shell: |
+    pm2 start ~/web/index.js -f
