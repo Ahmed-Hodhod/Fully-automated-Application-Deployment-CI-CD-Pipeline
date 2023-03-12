@@ -436,18 +436,18 @@ workflows:
           filters:
             branches:
               only: [master]
-      - run-migrations:
-          requires: [configure-infrastructure]
-          filters:
-            branches:
-              only: [master]
+      # - run-migrations:
+      #     requires: [configure-infrastructure]
+      #     filters:
+      #       branches:
+      #         only: [master]
       - deploy-frontend:
-          requires: [run-migrations]
+          #requires: [run-migrations]
           filters:
             branches:
               only: [master]
       - deploy-backend:
-          requires: [run-migrations]
+          #requires: [run-migrations]
           filters:
             branches:
               only: [master]
