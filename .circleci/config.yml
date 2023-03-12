@@ -161,7 +161,7 @@ jobs:
             --output text >> ~/ips.txt
 
             echo "[all]" > ~/hosts.txt
-            while read p; do   "$p ansible_user=<ubuntu>" >> ~/hosts.txt; done < ~/ips.txt
+            while read p; do   echo "$p ansible_user=<ubuntu>" >> ~/hosts.txt; done < ~/ips.txt
             cat ~/hosts.txt
 
       - persist_to_workspace:
