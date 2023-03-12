@@ -161,7 +161,7 @@ jobs:
             --output text >> ~/ips.txt
 
             echo "[all]" > ~/hosts.txt
-            while read p; do   echo "$p ansible_user=<ubuntu>" >> ~/hosts.txt; done < ~/ips.txt
+            while read p; do   echo "$p" >> ~/hosts.txt; done < ~/ips.txt
             cat ~/hosts.txt
 
       - persist_to_workspace:
@@ -194,7 +194,8 @@ jobs:
             echo "Current Working Directory: "
             pwd 
             #cd .circleci/ansible
-            ansible-playbook -i ~/hosts.txt .circleci/ansible/configure-server.yml
+
+            ansible-playbook -i  ~/hosts.txt .circleci/ansible/configure-server.yml -u ubuntu
             #ansible localhost -m shell -a pwd    # for test purposes
       - destroy-environment
 
