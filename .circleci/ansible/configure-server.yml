@@ -1,8 +1,8 @@
 ---
 - name: "configuration play."
   hosts: all
-  #user: ubuntu
-  remote_user: root
+  user: ubuntu
+  #remote_user: root
   become: yes
   become_method: sudo
   become_user: root
