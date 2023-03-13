@@ -195,8 +195,8 @@ jobs:
             pwd 
             #cd .circleci/ansible
 
-            pip install paramiko
-            ansible-playbook --user=root  -c paramiko  -vvv -i  ~/hosts.txt .circleci/ansible/configure-server.yml
+            #pip install paramiko
+            ansible-playbook --user=ubuntu  -c paramiko  -vvv -i  ~/hosts.txt .circleci/ansible/configure-server.yml
 
             #ansible localhost -m shell -a pwd    # for test purposes
       - destroy-environment
